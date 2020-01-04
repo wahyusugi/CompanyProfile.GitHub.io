@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <style type="text/css">
+        .card {
+            background-color: black;
+        }
+
+        .card-img {
+            max-height: 200px;
+            width: 100%;
+            opacity: 0.7;
+            display: block;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .card-img-overlay {
+            transition: .5s ease;
+            opacity: 1;
+            position: absolute;
+            text-align: center;
+            height: 100%;
+        }
+
+        .card:hover .card-img {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .card:hover .card-img-overlay {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        .card-title {
+            border: 3px double white;
+            color: white;
+            background-color: #ff9102;
+            font-size: 30px;
+            transition: .5s ease;
+            margin-bottom: 0;
+        }
+
+        .card:hover .card-img-overlay .card-title {
+            border: 3px solid white;
+            background-color: white;
+            color: black;
+            font-size: 30px;
+        }
+    </style>
+
+    <title>Double W Cake Shop</title>
+</head>
+
+<body class="fonta">
+
+    <div id="top"></div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-grad pt-4 pb-4" style="position: absolute; z-index: 2; width: 100%;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Double W <span style="color: #ff9102;">Cake Shop</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_contact.html">About & Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav my-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Carousel-->
+    <div class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/christmas_new_year_sweets_house_candles_84981_1920x1080.jpg">
+                <div class="carousel-caption d-none d-lg-block" style="margin-bottom:6%;">
+                    <h1 class="fontb" style="font-size: 7vw; text-shadow: 2px 2px #ffffff; color: #ff9102;">Double W Cake Shop</h1>
+                    <br>
+                    <p style="font-size: 1vw; padding: 0% 18%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex . . . .</p>
+                    <br>
+                    <hr style="border:2px solid #ff9102; width: 30%;">
+                    <br>
+                    <a class="btn btn-light btn-lg pl-4 pr-4 m-4" href="#" role="button">Our Menu</a>
+                    <a class="btn btn-warning btn-lg pl-4 pr-4 m-4" href="#" role="button">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--About-->
+    <div class="container mt-5 mb-5 pt-5 pb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 text-center">
+                <span>About Us</span>
+                <h1 class="fontb" style="color: #ff9102;">Master Chef From Us</h1>
+                <hr style="border:2px solid #ff9102; width: 10%">
+                <br>
+                <p class="m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <br><br>
+                <img src="img/medys-chef-competition.jpg" class="rounded-circle w-25">
+                <br><br>
+                <h4 class="fontc">Willy Wahyu</h4>
+                <span>Head Chef</span>
+                <br><br>
+            </div>
+            <div class="col-lg-6 col-md-12 align-self-center">
+                <div class="d-none d-md-block">
+                    <img src="img/cream_background_ice_cream_77905_1920x1080.jpg" class="rounded-circle w-100">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--Specialtiest-->
+    <div class="bg-pict pt-lg-3 pb-lg-3" style="text-align: center;">
+        <div class="box mt-5 mb-5 p-5">
+            <div class="container">
+                <span>Discover Us</span>
+                <h1 class="fontb" style="color: #ff9102;">Special in January</h1>
+                <hr style="border:2px solid #ff9102; width: 10%">
+                <br><br>
+                <h6>BEST DISHES RECOMMENDED BY OUR REGULAR CUSTOMER</h6>
+
+                <br><br><br>
+                <h5 class="fontc" style="color: #ff9102;">R E D V E L V E T &nbsp; W I T H &nbsp; B L U E &nbsp; S A U C E</h5>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <br><br>
+                <h3 class="fontb" style="color: #ff9102;">IDR. 235.000</h3>
+
+                <br><br>
+                <h5 class="fontc" style="color: #ff9102;">B L A C K F O R R E S T</h5>
+                <span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                <br><br>
+                <h3 class="fontb" style="color: #ff9102;">IDR. 150.000</h3>
+
+                <br><br>
+                <h5 class="fontc" style="color: #ff9102;">T I R A M I Z U E</h5>
+                <span>Ut enim ad minim veniam,</span>
+                <br><br>
+                <h3 class="fontb" style="color: #ff9102;">IDR. 200.000</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Services-->
+    <div class="container mt-5 mb-5 pt-5 pb-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 text-center pt-4">
+                <img src="img/Svg/cooker.svg" width="70px">
+                <br><br>
+                <h4 class="fontc">LUXURIOUS DINING</h4>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 text-center pt-4">
+                <img src="img/Svg/fork.svg" width="70px">
+                <br><br>
+                <h4 class="fontc">DELICIOUS CAKE</h4>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-lg-4 col-md-12 text-center pt-4">
+                <img src="img/Svg/tray.svg" width="70px">
+                <br><br>
+                <h4 class="fontc">EXQUISITE SERVICE</h4>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Menu-->
+    <div class="bg-pict-3" style="text-align: center;">
+        <div class="box2 pb-5 pt-5">
+            <div class="container">
+                <span>Entire</span>
+                <h1 class="fontb" style="color: #ff9102;">Sweetest Menu</h1>
+                <hr style="border:2px solid #ff9102; width: 10%">
+                <!--
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/cake_dessert_layers_89721_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Family</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/holiday_cookies_sweets_treats_new_year_mood_84977_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Party</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/ice_cream_cone_lavender_dessert_101521_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Couple</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/chocolate_candy_stuffing_sweet_miscellaneous_85039_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Chocolate</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/cake_cream_holiday_ornament_92894_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Cake</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-12 pb-4">
+                        <a href="#">
+                            <div class="card">
+                                <img class="card-img" src="img/chocolate_delicious_mushrooms_82028_1920x1080.jpg" alt="Card image" style="object-fit: cover;">
+                                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                                    <h1 class="card-title pt-lg-2 pb-lg-2 pl-lg-5 pr-lg-5 pt-2 pb-2 pl-2 pr-2 fontb"><b>Cream</b></h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+-->
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-12 p-4">
+                        <div class="text-center" style="border:1px solid white; border-style:dashed;">
+                            <br><br>
+                            <h3 class="fontc">Dessert :</h3>
+
+                            <hr>
+
+                            <br>
+
+                            <h5 class="font-italic">Banana Tart</h5>
+                            <small>Sed do eiusmod tempor incididunt ut labore </small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Redvelvet</h5>
+                            <small>Et dolore magna aliqua</small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Chocolate Mors</h5>
+                            <small>Ut enim ad minim veniam</small>
+
+                            <br><br><br><br>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-12 p-4">
+                        <div class="text-center" style="border:1px solid white; border-style:dashed;">
+                            <br><br>
+                            <h3 class="fontc">Main Corse :</h3>
+
+                            <hr>
+
+                            <br>
+
+                            <h5 class="font-italic">Black Forrest</h5>
+                            <small>Lorem ipsum dolor sit amet</small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Tiramizue</h5>
+                            <small>Consectetur adipiscing elit</small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Banana Tart</h5>
+                            <small>Sed do eiusmod tempor incididunt ut labore </small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Redvelvet</h5>
+                            <small>Et dolore magna aliqua</small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Chocolate Mors</h5>
+                            <small>Ut enim ad minim veniam</small>
+
+                            <br><br><br><br>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-12 p-4">
+                        <div class="text-center" style="border:1px solid white; border-style:dashed;">
+                            <br><br>
+                            <h3 class="fontc">Party :</h3>
+
+                            <hr>
+
+                            <br>
+                            
+                            <h5 class="font-italic">Tiramizue</h5>
+                            <small>Consectetur adipiscing elit</small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Banana Tart</h5>
+                            <small>Sed do eiusmod tempor incididunt ut labore </small>
+                            <br><br><br>
+
+                            <h5 class="font-italic">Redvelvet</h5>
+                            <small>Et dolore magna aliqua</small>
+
+                            <br><br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Reservation-->
+    <div class="container mb-5 mt-5 pt-5 pb-5">
+        <div class="row">
+            <div class="col-lg-5 pt-2 pb-2">
+                <img src="img/dessert_cake_cake_raspberries_sweet_fruit_blueberry_black_currant_food_cream_93481_1920x1080.jpg" class="img-fluid" alt="Responsive image">
+                <br><br>
+                <img src="img/saint_patricks_day_cupcakes_cream_holiday_108037_1920x1080.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-lg-7 my-auto pt-2 pb-2">
+                <div class="text-center">
+                    <h1 class="fontb" style="color: #ff9102;">Reserve a Table</h1>
+                    <hr style="border:2px solid #ff9102; width: 10%">
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <br>
+                    <span class="mr-3">For :</span>
+                    <a class="btn btn-warning" href="#" role="button">Party</a>
+                    <a class="btn btn-warning" href="#" role="button">Family</a>
+                    <a class="btn btn-warning" href="#" role="button">Couple</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Reviews-->
+    <div class="bg-pict-2 pt-lg-3 pb-lg-3" style="text-align: center;">
+        <div class="box mt-5 mb-5 p-5">
+            <div class="container">
+                <h1 class="fontb" style="color: #ff9102;">Guest Reviews</h1>
+                <hr style="border:2px solid #ff9102; width: 10%">
+                <br><br>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-quote-left" style="font-size: 30px; color: #ff9102;"></i>
+                    </div>
+                    <div>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container-fluid pb-5">
+                                        <div class="text-center">
+                                            <p class="p-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                            <br>
+                                            <h6 class="text-center fontc">~ John Guna, Bali</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="container-fluid pb-5">
+                                        <div class="text-center">
+                                            <p class="p-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                            <br>
+                                            <h6 class="text-center fontc">~ John Sena, Jakarta</h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="container-fluid pb-5">
+                                        <div class="text-center">
+                                            <p class="p-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                            <br>
+                                            <h6 class="text-center fontc">~ John Doe, Papua</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-quote-right" style="font-size: 30px; color: #ff9102;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Contact-->
+    <div class="container mb-5 mt-5 pb-5 pt-5">
+        <div class="text-center">
+            <h1 class="fontb" style="color: #ff9102;">Get In Touch</h1>
+            <hr style="border:2px solid #ff9102; width: 10%">
+        </div>
+        <br><br>
+        <div class="row text-center fontc">
+            <div class="col-lg-4 col-md-12 pt-2 pb-2">
+                <h5 style="color: #ff9102;">WORKING HOURS</h5>
+                <br>
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <h6 class="font-weight-bold">Monday - Thursday</h6>
+                        <span>8:00 am - 10:00 pm</span>
+                    </div>
+                    <div>
+                        <h6 class="font-weight-bold">Friday - Sunday</h6>
+                        <span>10:00 am - 12:00 pm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 pt-2 pb-2">
+                <h5 style="color: #ff9102;">CALL/EMAIL</h5>
+                <br>
+                <h6><b>Phone</b> - 081244255266</h6>
+                <h6><b>Email</b> - info@doublew.com</h6>
+            </div>
+            <div class="col-lg-4 col-md-12 pt-2 pb-2">
+                <h5 style="color: #ff9102;">LOCATION</h5>
+                <br>
+                <h6><b>Jln. Arjuna, Kuta Utara</b></h6>
+                <span>No. 5 Badung, Bali</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Maps-->
+    <div class="container-fluid p-0 m-0" style="height: 350px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.192292535566!2d115.22451521541242!3d-8.673255490690547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240f24881c587%3A0xe8413f111e0aa096!2sSTIKOM%20Bali!5e0!3m2!1sen!2sid!4v1577587494118!5m2!1sen!2sid" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+
+    <!--Footer-->
+    <div class="container-fluid bg-dark pb-3 pt-3">
+        <div class="row text-center">
+            <div class="col-lg-6 col-md-12 pt-1 pb-1">
+                <a class="text-muted pr-3" href="#" style="font-size: 1.2rem;"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-muted pr-3" href="#" style="font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                <a class="text-muted pr-3" href="#" style="font-size: 1.2rem;"><i class="fab fa-google-plus-g"></i></a>
+                <a class="text-muted pr-3" href="#" style="font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-6 col-md-12 my-auto pt-1 pb-1">
+                <span style="color:white;">Design by Willy & Wahyu 2019. All Right Reserved</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="fixed-bottom" style="width: auto;">
+        <div class="float-right p-4">
+            <a class="sc-top text-transparent" href="#top"><i class="fas fa-arrow-alt-circle-up" style="font-size: 4vw;"></i></a>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        //smooth scrolling
+        document.querySelectorAll("a[href^=\"#\"]").forEach((anchor) => {
+            anchor.addEventListener("click", function(ev) {
+                ev.preventDefault();
+
+                const targetElement = document.querySelector(this.getAttribute("href"));
+                targetElement.scrollIntoView({
+                    block: "start",
+                    alignToTop: true,
+                    behavior: "smooth"
+                });
+            });
+        });
+
+        //scroll top change color
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll > window.innerHeight - 55) {
+                $(".sc-top").addClass("text-warning").removeClass("text-transparent");
+            } else {
+                $(".sc-top").removeClass("text-warning").addClass("text-transparent");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
